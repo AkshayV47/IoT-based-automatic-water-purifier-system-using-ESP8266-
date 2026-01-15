@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3LJfOLBSD"
+#define BLYNK_TEMPLATE_ID "**********"
 #define BLYNK_TEMPLATE_NAME "IoT Based Smart Water Quality and Level Monitoring"
-#define BLYNK_AUTH_TOKEN "qHTRvlJxC5rfIM0I3F96Fns9Dz1EfKs9"
+#define BLYNK_AUTH_TOKEN "******************"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -25,11 +25,8 @@ NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_SENSOR_DISTANCE);
 const float FULL_LEVEL_DISTANCE_CM = 5; // 1 foot (full water level)
 const float EMPTY_LEVEL_DISTANCE_CM = 15; // 2 feet (empty, adjust as needed)
 
-//char ssid[] = "OPPOReno8T5G";
-//char password[] = "OPPO8T5G";
-
-char ssid[] = "Harsithbhuvan";
-char password[] = "12345678";
+char ssid[] = "***********";
+char password[] = "********";
 
 // Blynk timer
 BlynkTimer timer;
