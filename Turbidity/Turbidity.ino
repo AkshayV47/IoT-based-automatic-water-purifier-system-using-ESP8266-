@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3LJfOLBSD"
+#define BLYNK_TEMPLATE_ID "***************"
 #define BLYNK_TEMPLATE_NAME "IoT Based Smart Water Quality and Level Monitoring"
-#define BLYNK_AUTH_TOKEN "qHTRvlJxC5rfIM0I3F96Fns9Dz1EfKs9"
+#define BLYNK_AUTH_TOKEN "******************"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -15,8 +15,8 @@
 #define TANK_HEIGHT 30.48
 
 // WiFi credentials
-char ssid[] = "OPPOReno8T5G";
-char password[] = "OPPO8T5G";
+char ssid[] = "*************";
+char password[] = "******";
 
 // Blynk timer
 BlynkTimer timer;
